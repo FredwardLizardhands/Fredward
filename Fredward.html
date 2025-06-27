@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredward Lizardhands - The Gecko's Giga-Coin for a Cause!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Light green background */
+            color: #1a202c; /* Dark text */
+        }
+        .hero-section {
+            background-image: linear-gradient(to right top, #a7f3d0, #6ee7b7, #34d399); /* Green gradient */
+        }
+        /* Custom styles to ensure images display correctly */
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Ensures image does not have extra space below it */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Navigation (Simple) -->
+    <header class="bg-white shadow-sm p-4 sticky top-0 z-50 rounded-b-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-700 rounded-lg p-2 hover:bg-green-50 transition duration-300">Fredward Lizardhands</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-gray-700 hover:text-green-600 font-medium transition duration-300">About Fred</a></li>
+                <li><a href="#fred-gallery" class="text-gray-700 hover:text-green-600 font-medium transition duration-300">Fred's Gallery</a></li>
+                <li><a href="#tokenomics" class="text-gray-700 hover:text-green-600 font-medium transition duration-300">Tokenomics</a></li>
+                <li><a href="#cause" class="text-gray-700 hover:text-green-600 font-medium transition duration-300">Our Cause</a></li>
+                <li><a href="#community" class="text-gray-700 hover:text-green-600 font-medium transition duration-300">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 md:py-32 text-center rounded-b-3xl shadow-xl">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight drop-shadow-lg">
+                Fredward Lizardhands: The Gecko's Giga-Coin
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto drop-shadow-md">
+                Uniting reptile lovers and supporting vital rescues, one Fred at a time!
+            </p>
+            <!-- Fred's main image: Fred in a hammock! -->
+            <img src="https://i.imgur.com/GXKvzd2.jpeg" alt="Fred the Leopard Gecko relaxing in a hammock" class="mx-auto rounded-full shadow-2xl border-4 border-white transform hover:scale-105 transition-transform duration-300 img-responsive" style="width: 200px; height: 200px; object-fit: cover;">
+
+            <div class="mt-10 flex justify-center space-x-4">
+                <a href="#tokenomics" class="bg-white text-green-700 px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                    Buy Fredward Lizardhands
+                </a>
+                <a href="#cause" class="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-white hover:text-green-700 transition duration-300 transform hover:scale-105">
+                    Learn About Our Cause
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-white rounded-xl shadow-lg mx-6 md:mx-auto max-w-4xl -mt-16 relative z-10 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/3">
+                <!-- Fred's smaller image: Fred chilling -->
+                <img src="https://i.imgur.com/TjlkX2y.jpeg" alt="Fred the Leopard Gecko chilling casually" class="rounded-xl shadow-lg border-2 border-green-200 w-full h-auto object-cover transform hover:rotate-1 transition-transform duration-300 img-responsive">
+            </div>
+            <div class="md:w-2/3 text-gray-700">
+                <h2 class="text-4xl font-bold text-green-800 mb-6">Meet Fred: The Inspiration!</h2>
+                <p class="mb-4 text-lg leading-relaxed">
+                    Fred isn't just any leopard gecko; he's the chief inspiration behind Fredward Lizardhands! With his charming smile and laid-back demeanor, Fred symbolizes the beauty and unique personalities of reptiles often misunderstood or neglected. His existence fuels our mission to bring positive change to the reptile community.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Fredward Lizardhands is more than just a cryptocurrency; it's a movement to shine a light on the incredible world of reptiles and to provide crucial support to organizations dedicated to their welfare and rescue. Join us in making a real difference!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fred's Gallery Section -->
+    <section id="fred-gallery" class="py-16 md:py-24 bg-green-50 text-gray-800 rounded-xl shadow-lg mx-6 md:mx-auto max-w-4xl mt-12 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-800 mb-8">Fred's Awesome Gallery!</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Dive into more pictures of Fredward Lizardhands, showcasing his many moods and charming personality!
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center">
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/H7MHg5Q.jpeg" alt="Fred the Leopard Gecko looking curious" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Curious Fred</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/gvzyrun.jpeg" alt="Fred the Leopard Gecko posing majestically" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Majestic Fred</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/GRNNnxF.jpeg" alt="Fred the Leopard Gecko peeking out from behind a plant" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Peeking Fred</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/Tks9xh4.jpeg" alt="Fred the Leopard Gecko sleeping soundly" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Snoozin' Fred</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/TOFBEqw.jpeg" alt="Fred the Leopard Gecko close up" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Up-Close Fred</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://i.imgur.com/F9S5tRq.jpeg" alt="Fred the Leopard Gecko showing his patterns" class="rounded-lg shadow-sm mb-4 w-full h-48 object-cover img-responsive">
+                    <p class="text-gray-700 font-semibold">Pattern Perfect Fred</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="py-16 md:py-24 bg-green-50 text-gray-800 rounded-xl shadow-lg mx-6 md:mx-auto max-w-4xl mt-12 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-800 mb-8">Fredward Lizardhands Tokenomics (Coming Soon!)</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                The detailed tokenomics, including total supply, distribution, and allocation, are currently being finalized to ensure a fair and sustainable ecosystem for Fredward Lizardhands. Stay tuned for official announcements!
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                <div class="bg-white p-6 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="2xl font-semibold text-green-700 mb-3">Supply & Distribution</h3>
+                    <p class="text-gray-600">Details about the total supply, how tokens will be distributed, and initial liquidity provisions will be shared shortly.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="2xl font-semibold text-green-700 mb-3">Charity Allocation</h3>
+                    <p class="text-gray-600">A significant portion of transaction fees or a dedicated allocation will directly support reptile charities and rescues.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="2xl font-semibold text-green-700 mb-3">How to Buy</h3>
+                    <p class="text-gray-600">Instructions on how and where to purchase Fredward Lizardhands will be released with our official launch roadmap.</p>
+                </div>
+            </div>
+            <p class="mt-8 text-sm text-gray-500">
+                <strong class="text-green-700">Disclaimer:</strong> This is a placeholder for future tokenomics details. Always do your own research before investing in any cryptocurrency.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Cause Section -->
+    <section id="cause" class="py-16 md:py-24 bg-white text-gray-800 rounded-xl shadow-lg mx-6 md:mx-auto max-w-4xl mt-12 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-800 mb-8">Supporting Reptile Activists & Rescues</h2>
+            <p class="text-lg mb-8 max-w-3xl mx-auto">
+                Fredward Lizardhands is committed to making a tangible impact in the reptile community. A portion of every transaction will be donated to reputable reptile activists, conservation efforts, and rescue organizations that provide safe havens and rehabilitation for neglected or abandoned reptiles.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="bg-green-50 p-6 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="2xl font-semibold text-green-700 mb-3">Why This Cause Matters</h3>
+                    <p class="text-gray-600">Many reptiles face unique challenges, from habitat loss to improper care in captivity. Rescues provide critical medical attention, safe environments, and education to new owners.</p>
+                </div>
+                <div class="bg-green-50 p-6 rounded-lg shadow-md border border-green-100 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="2xl font-semibold text-green-700 mb-3">Transparency & Impact</h3>
+                    <p class="text-gray-600">We will regularly publish reports detailing our donations and the impact they have on the organizations and reptiles we support, ensuring full transparency.</p>
+                </div>
+            </div>
+            <div class="mt-10">
+                <a href="https://linktr.ee/BeWildReptileRescue" target="_blank" rel="noopener noreferrer" class="bg-green-600 text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-green-700 transition duration-300 transform hover:scale-105">
+                    Suggest a Rescue/Activist
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-16 md:py-24 bg-green-100 text-gray-800 rounded-xl shadow-lg mx-6 md:mx-auto max-w-4xl mt-12 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-800 mb-8">Join the Fredward Lizardhands Community!</h2>
+            <p class="text-lg mb-8 max-w-3xl mx-auto">
+                Become a part of Fred's growing family! Connect with fellow reptile enthusiasts, get updates on Fredward Lizardhands, and participate in discussions about reptile welfare.
+            </p>
+            <div class="flex justify-center space-x-6">
+                <!-- X (Twitter) profile link updated -->
+                <a href="https://x.com/Fredward_L" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-green-600 transition duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012 10.42v.058a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.188a11.644 11.644 0 006.29 2.063z"></path>
+                    </svg>
+                    <span class="sr-only">X (Twitter)</span>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-green-600 transition duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22H12c5.523 0 10-4.477 10-10z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-green-600 transition duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.792.052 1.054.104 1.749.52 2.131.912.396.395.808.665.912 2.132.039 1.008.052 1.353.052 3.792v.064c0 2.43 0 2.784-.013 3.792-.104 1.054-.52 1.749-.912 2.131-.395.396-.665.808-2.132.912-1.008.039-1.353.052-3.792.052h-.064c-2.43 0-2.784-.013-3.792-.052-1.054-.104-1.749-.52-2.131-.912-.396-.395-.808-.665-.912-2.132-.039-1.008-.052-1.353-.052-3.792v-.064c0-2.43 0-2.784.013-3.792.104-1.054.52-1.749.912-2.131.395-.396.665-.808 2.132-.912 1.008-.039 1.353-.052 3.792-.052h.064zm-1.802 2.754c-1.745 0-2.613-.016-3.23-.042-.455-.018-.73-.13-1.01-.265-.295-.14-.527-.372-.667-.667-.135-.28-.247-.555-.265-1.01-.026-.617-.042-1.485-.042-3.23 0-1.745.016-2.613.042-3.23.018-.455.13-.73.265-1.01.14-.295.372-.527.667-.667.28-.135.555-.247 1.01-.265.617-.026 1.485-.042 3.23-.042h.064c1.745 0 2.613.016 3.23.042.455.018.73.13 1.01.265.295.14.527.372.667.667.135.28.247.555.265 1.01.026.617-.042 1.485-.042 3.23 0 1.745-.016 2.613-.042 3.23-.018.455-.13.73-.265 1.01-.14.295-.372-.527-.667-.667-.28.135-.555-.247-1.01-.265-.617-.026-1.485-.042-3.23-.042zM12 18.39c-3.52 0-6.39-2.87-6.39-6.39s2.87-6.39 6.39-6.39 6.39 2.87 6.39 6.39-2.87 6.39-6.39 6.39zM12 7.61c-2.427 0-4.39 1.963-4.39 4.39s1.963 4.39 4.39 4.39 4.39-1.963 4.39-4.39-1.963-4.39-4.39-4.39zm6.402-4.072a1.077 1.077 0 01-1.076-1.077 1.077 1.077 0 011.076-1.076 1.077 1.077 0 011.076 1.076 1.077 1.077 0 01-1.076 1.077z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 mt-12 rounded-t-lg">
+        <div class="container mx-auto text-center text-sm px-4">
+            <p>&copy; 2025 Fredward Lizardhands. All rights reserved. Not financial advice. Always do your own research.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-green-400">Privacy Policy</a>
+                <a href="#" class="hover:text-green-400">Terms of Service</a>
+                <a href="#" class="hover:text-green-400">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
